@@ -1,0 +1,14 @@
+package Lab2;
+public class Radio
+{
+    private String currentStation;
+    protected Boolean status;
+    
+    public Radio(String currentStation, Boolean status) {
+        this.currentStation = currentStation;
+        this.status = status;
+    }
+    public void PlayTunes() {
+        System.out.println("Playing...");
+    }
+}

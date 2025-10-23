@@ -1,0 +1,60 @@
+ArrayList size = 10
+Add total time = 33698600
+Add median time = 3369860
+Remove total time = 10900
+Remove median time = 10900
+
+LinkedList size = 10
+Add total time = 418200
+Add median time = 41820
+Remove total time = 16400
+Remove median time = 16400
+
+ArrayList size = 100
+Add total time = 1440800
+Add median time = 14408
+Remove total time = 3000
+Remove median time = 3000
+
+LinkedList size = 100
+Add total time = 1109500
+Add median time = 11095
+Remove total time = 7900
+Remove median time = 7900
+
+ArrayList size = 1000
+Add total time = 4585700
+Add median time = 4585
+Remove total time = 4000
+Remove median time = 4000
+
+LinkedList size = 1000
+Add total time = 2103600
+Add median time = 2103
+Remove total time = 14000
+Remove median time = 14000
+
+ArrayList size = 10000
+Add total time = 16646900
+Add median time = 1664
+Remove total time = 3600
+Remove median time = 3600
+
+LinkedList size = 10000
+Add total time = 10687100
+Add median time = 1068
+Remove total time = 71900
+Remove median time = 71900
+
+ArrayList size = 100000
+Add total time = 94565600
+Add median time = 945
+Remove total time = 27800
+Remove median time = 27800
+
+LinkedList size = 100000
+Add total time = 105507900
+Add median time = 1055
+Remove total time = 574500
+Remove median time = 574500
+

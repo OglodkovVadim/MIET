@@ -1,0 +1,6 @@
+void main () {
+    for ( int i = 2 ; 6 > i ; )
+    { 
+        int b = 7 ; 
+    }
+}

@@ -1,0 +1,26 @@
+Vadim: starting at 23:30:01.748
+Changing in db at 23:30:17.091
+Changing in db at 23:30:37.331
+Changing in db at 23:30:46.258
+Vadim: starting at 01:38:16.470
+Changing in db at 01:38:20.209
+Writing to db at 01:38:58.529
+Changing in db at 01:39:03.731
+Changing in db at 01:39:23.361
+Changing in db at 01:39:30.705
+Vadim finished at 01:39:37.841
+Vadim: starting at 01:42:01.528
+Changing in db at 01:42:03.665
+Vadim finished at 01:42:29.985
+Error with reading config at 02:34:15.154
+Error with reading config file at 02:36:49.661
+Vadim: starting at 02:37:44.429
+Reading from db at 02:38:12.720
+Vadim: starting at 02:40:38.358
+Vadim: starting at 02:41:29.730
+Error input at 02:41:31.663
+Vadim: starting at 02:41:44.478
+Vadim finished at 02:41:47.455
+Error with reading config file at 02:41:56.034
+Vadim: starting at 02:42:31.938
+Error input at 02:42:38.657

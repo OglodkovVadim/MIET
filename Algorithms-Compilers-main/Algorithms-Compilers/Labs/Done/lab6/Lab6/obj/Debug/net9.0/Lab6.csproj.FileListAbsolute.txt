@@ -1,0 +1,15 @@
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/bin/Debug/net9.0/Lab6
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/bin/Debug/net9.0/Lab6.deps.json
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/bin/Debug/net9.0/Lab6.runtimeconfig.json
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/bin/Debug/net9.0/Lab6.dll
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/bin/Debug/net9.0/Lab6.pdb
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.AssemblyInfoInputs.cache
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.AssemblyInfo.cs
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.csproj.CoreCompileInputs.cache
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.sourcelink.json
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.dll
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/refint/Lab6.dll
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.pdb
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/Lab6.genruntimeconfig.cache
+/Users/vadimoglodkov/Desktop/Programming/C#/NewAlg/Algorithms-Compilers/Labs/Done/lab6/Lab6/obj/Debug/net9.0/ref/Lab6.dll

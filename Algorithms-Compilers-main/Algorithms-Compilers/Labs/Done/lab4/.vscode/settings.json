@@ -1,0 +1,6 @@
+{
+    "dotnet.defaultSolution": "Lab4.sln",
+    "files.associations": {
+        "stack": "cpp"
+    }
+}

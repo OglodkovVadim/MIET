@@ -1,0 +1,132 @@
+CREATE TABLE singletable (
+  	RegNumber INTEGER PRIMARY KEY,
+  	Name varchar(60),
+  	Skipper varchar(60),
+  	Type varchar(15),
+  	Capacity int,
+  	Year int,
+  	Dockyard varchar(15),
+  	CustomValue int,
+  	DepartureDate date,
+  	ArriveDate date,
+  	Origin varchar(20),
+  	Destination varcchar(20),
+  	Number int,
+  	Shipment varchar(30),
+  	DeclareValue int,
+  	Unit varchar(10),
+  	InsureValue int,
+  	Sender varchar(30),
+  	INNSender int,
+  	AdressSender varchar(80),
+  	Consignee varchar(30),
+  	INNConsignee int,
+  	BankConsignee varchar(60),
+  	AdressConsignee varchar(80)
+  )
+
+
+INSERT INTO singletable (name, skipper, type, capacity, year, dockyard, 
+                  customvalue, departuredate, arrivedate, origin, 
+                  destination, number, shipment, declarevalue, 
+                  unit, insurevalue, sender, innsender, adresssender, consignee, innconsignee, bankconsignee, adressconsignee) VALUES (
+  "First",
+  "Shabarshov Alexey",
+  "Tanker",
+  7000,
+  2018,
+  "My port",
+  150,
+  "2019.02.02",
+  "2020.02.02",
+  "Moscow",
+  "Zelenograd",
+  211,
+  "Oranges",
+  8000,
+  "kg",
+  5000,
+  "Savin Denis",
+  174721441,
+  "Moscow, Lenina st. 15",
+  "Oglodkov Vadim",
+  174563441,
+  "Tinkoff",
+  "Zelenograd Gagarina st. 16"
+)
+
+CREATE TABLE Sender (
+  INNSender int PRIMARY KEY,
+  Name varchar(30),
+  AdressSender varchar(80)
+)
+
+CREATE TABLE Consignee (
+  INNConsignee int PRIMARY KEY,
+  Name varchar(30),
+  AdressConsignee varchar(80)
+)
+
+CREATE TABLE Shipment (
+  Number int PRIMARY KEY, 
+  DepartureDate date,
+  ArriveDate date,
+  Origin varchar(20),
+  Destination varcchar(20),
+  Name varchar(30),
+  DeclareValue int,
+  Unit varchar(10),
+  InsureValue int
+)
+
+CREATE TABLE PartShipment (
+  CustomValue int,
+  Sender int,
+  Consignee int,
+  FOREIGN KEY(Customvalue) REFERENCES Shipment(Number),
+  FOREIGN KEY(Sender) REFERENCES Sender(INNSender),
+  FOREIGN KEY(Consignee) REFERENCES Consignee(INNConsignee)
+)
+
+CREATE TABLE Ship (
+  RegNumber int,
+  Name varchar(60),
+  Skipper varchar(60),
+  Type varchar(15),
+  Capacity int,
+  Year int,
+  Dockyard varchar(15),
+  FOREIGN KEY (RegNumber) REFERENCES PartShipment(CustomValue)
+)
+
+INSERT INTO Sender (innsender, name, adresssender) VALUES (
+  123456,
+  "Alexey",
+  "Alexey Adress"
+)
+
+INSERT INTO Consignee (innconsignee, name, adressconsignee) VALUES (
+  453456,
+  "Vadim",
+  "Vadim Adress"
+)
+
+Insert INTO Shipment (
+  departuredate,
+  arrivedate,
+  origin,
+  destination,
+  name,
+  declarevalue,
+  unit,
+  insurevalue
+) VALUES (
+  "2019.02.02",
+  "2020.02.02",
+  "A",
+  "B",
+  "DeclareType",
+  150,
+  "unit",
+  15
+)
